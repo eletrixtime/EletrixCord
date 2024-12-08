@@ -1,4 +1,10 @@
-import { Settings } from "@api/Settings";
+/**
+ * @file loopvideos.tsx
+ * @description Adds a loop button to Discord videos and audio files.
+ * @author GoumiGame/Eletrix
+ * @version 1.0.0
+ */
+
 import ErrorBoundary from "@components/ErrorBoundary";
 import definePlugin, { OptionType } from "@utils/types";
 import { React } from "@webpack/common";
@@ -57,5 +63,5 @@ export default definePlugin({
                 <p>Media Loop plugin is active.</p>
             </ErrorBoundary>
         );
-    } // This was missing the closing brace
-}); // Closing the plugin definition here
+    }
+});
