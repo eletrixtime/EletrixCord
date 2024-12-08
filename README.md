@@ -1,3 +1,3 @@
 # EletrixCord
 
-> A fork of Vencord for fun
+> A fork of Vencord for funnny
