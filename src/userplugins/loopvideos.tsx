@@ -2,6 +2,7 @@ import { Settings } from "@api/Settings";
 import ErrorBoundary from "@components/ErrorBoundary";
 import definePlugin, { OptionType } from "@utils/types";
 import { React } from "@webpack/common";
+
 export default definePlugin({
     name: "MediaLoop",
     description: "Adds a loop button to Discord videos and audio files.",
@@ -56,4 +57,5 @@ export default definePlugin({
                 <p>Media Loop plugin is active.</p>
             </ErrorBoundary>
         );
-    }
+    } // This was missing the closing brace
+}); // Closing the plugin definition here
